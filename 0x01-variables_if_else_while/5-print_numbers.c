@@ -1,0 +1,18 @@
+# include <stdio.h>
+
+
+/**
+* main - Entry point
+* show alphabet
+* Return: Always 0 (SUCCESS)
+*/
+
+int main(void)
+{
+	int i;
+
+	for (i=0; i < 10 ; i++)
+		puts(i);
+	putchar('\n');
+	return (0);
+}
