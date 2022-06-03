@@ -10,7 +10,7 @@
 int main(void)
 {
 	char letter;
-	char end = 'z'
+	char end = 'z';
 
 	for (letter = 'a'; letter <= end; letter++)
 	{
@@ -21,6 +21,6 @@ int main(void)
 			end = 'Z';
 		}
 	}
-	putchar('\n');
+	putchar("$\n");
 	return (0);
 }
