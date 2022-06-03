@@ -23,10 +23,10 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			if (c == 7)
-				break;
-			putchar(',');
-			putchar(' ');
+		if (c == 7)
+			break;
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
