@@ -1,10 +1,11 @@
-#include <stdio.h>
+nclude <stdio.h>
 /**
 * main - Entry point
 * show alphabet
 * Return: Always 0 (SUCCESS)
 */
 int main(void)
+
 {
 	int c;
 
