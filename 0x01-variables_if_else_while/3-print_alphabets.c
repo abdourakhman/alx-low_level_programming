@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	char letter;
+	char letter = 'a';
 	char end = 'z';
 
-	for (letter = 'a'; letter <= end; letter++)
+	for (; letter <= end; letter++)
 	{
 		putchar(letter);
 		if (letter == end)
@@ -20,7 +20,7 @@ int main(void)
 			letter = 'A';
 			end = 'Z';
 		}
-		if (letter =='Z')
+		if (letter == 'Z')
 			break;
 	}
 	putchar('$');
