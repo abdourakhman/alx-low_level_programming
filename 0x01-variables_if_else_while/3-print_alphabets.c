@@ -21,7 +21,6 @@ int main(void)
 			end = 'Z';
 		}
 	}
-	putchar('$');
 	putchar('\n');
 	return (0);
 }
