@@ -15,13 +15,11 @@ int main(void)
 	for (; letter <= end; letter++)
 	{
 		putchar(letter);
-		if (letter == end)
+		if (letter == 'z')
 		{
 			letter = 'A';
 			end = 'Z';
 		}
-		if (letter == 'Z')
-			break;
 	}
 	putchar('$');
 	putchar('\n');
