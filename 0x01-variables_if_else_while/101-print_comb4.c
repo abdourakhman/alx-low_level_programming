@@ -18,15 +18,11 @@ int main(void)
 				putchar('0' + c);
 				putchar(k + '0');
 				putchar(x + '0');
-				if (k == 8)
+				if ((c == 7) && (k == 8))
 					break;
 				putchar(',');
 				putchar(' ');
 			}
-		if (c == 7)
-			break;
-		putchar(',');
-		putchar(' ');
 	}
 	return (0);
 }
