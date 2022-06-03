@@ -20,6 +20,8 @@ int main(void)
 			letter = 'A';
 			end = 'Z';
 		}
+		if (letter =='Z')
+			break;
 	}
 	putchar('$');
 	putchar('\n');
