@@ -19,6 +19,7 @@ int main(void)
 		{
 			letter = 'A';
 			end = 'Z';
+			putchar(letter);
 		}
 	}
 	putchar('\n');
