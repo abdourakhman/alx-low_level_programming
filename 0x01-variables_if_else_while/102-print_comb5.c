@@ -15,20 +15,16 @@ int main(void)
 	{
 		for (k = 0 ; k <= 9 ; k++)
 		{
-			for (x = 0; x <= 9; x++)
+			for (x = c; x <= 9; x++)
 			{
-				for (y = 0; y <= 9; y++)
+				for (y = k + 1; y <= 9; y++)
 				{
-					if ((c == x) && (k == y))
-						continue;
-					if ((c ==9) && (k==9))
-						break;
 					putchar('0' + c);
 					putchar(k + '0');
 					putchar(' ');
 					putchar('0' + x);
 					putchar(y + '0');
-					if ((k == 8) && (y == 9))
+					if (((c == 9) && (k == 8)) && ((y == 9) && (x == 9)))
 						break;
 					putchar(',');
 					putchar(' ');
