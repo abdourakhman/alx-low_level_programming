@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	int size;
 
-	sz = sizeof(message) / sizeof(int);
+	size = sizeof(message) / sizeof(int);
 	for (i = 0; i < size; i++)
 	{
 		_putchar(message[i]);
