@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include <unistd.h>
+#include "main.h"
 
 /**
-* _putchar - write the  message _putchar
-* return: 1 SUCCESS
+* _putchar - write the charcater c to stdout
+* Return: 1 SUCCESS
 */
-void _putchar(void)
+int _putchar(char c)
 {
-	write(1, "_putchar", 8);
+	return (write(1, &c, 1));
 }
