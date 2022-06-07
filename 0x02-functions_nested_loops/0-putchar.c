@@ -1,4 +1,6 @@
-void putchar(void)
+#include <stdio.h>
+
+void _putchar(void)
 {
 	char *message = "_putchar";
 	int i = 0;
