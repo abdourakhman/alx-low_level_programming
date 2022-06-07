@@ -9,6 +9,7 @@ int main(void)
 {
 	int x;
 	int y;
+
 	for (x = 1; x < 1024; x++)
 	{
 		if ((x % 5) == 0 || (x % 3) == 0)
