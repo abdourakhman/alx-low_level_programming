@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-* main - Entry point
-* show alphabet
+*  print_alphabet - display alphabet from a to z
+* 
 * Return: Always 0 (SUCCESS)
 */
 
