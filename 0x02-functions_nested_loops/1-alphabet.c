@@ -2,7 +2,7 @@
 
 /**
 *  print_alphabet - display alphabet from a to z
-* 
+*
 * Return: Always 0 (SUCCESS)
 */
 
