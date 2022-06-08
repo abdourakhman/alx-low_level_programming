@@ -8,12 +8,7 @@
 int main(void)
 {
 	int i = 0;
-	int j = 98;
-	int k = -1;
-
+	
 	positive_or_negative(i);
-	positive_or_negative(j);
-	positive_or_negative(k);
-
 	return(0);
 }
