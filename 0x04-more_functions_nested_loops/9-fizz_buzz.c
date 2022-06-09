@@ -10,19 +10,20 @@
 */
 int main(void)
 {
-	int i;
+	int n;
 
-	printf("%d",1);
-	for (i = 2; i <= 100; i++)
+	n = 1;
+	printf("%d", n);
+	for (n = 2; n <= 100; n++)
 	{
-		if ((i % 3 == 0) && (i % 5 == 0))
-			printf(" fizzbuzz");
-		else if (i % 3 == 0)
-			printf(" fizz");
-		else if (i % 5 == 0)
-			printf("buzz");
+		if ((n % 3 == 0) && (n % 5 == 0))
+			printf(" FizzBuzz");
+		else if (n % 3 == 0)
+			printf(" Fizz");
+		else if (n % 5 == 0)
+			printf(" Buzz");
 		else
-			printf(" %d", i);
+			printf(" %d", n);
 	}
 	printf("\n");
 	return (0);
