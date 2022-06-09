@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- * print_number - prints an integer.
- * @n: input integer.
- * Return: no return.
- */
+* print_number - prints an integer
+* @n: input integer
+* Return: no return
+*/
 void print_number(int n)
 {
-	unsigned int a;
-  	unsigned int b;
-  	int cpt;
+	unsigned int a, b, cpt;
 
 	if (n < 0)
 	{
