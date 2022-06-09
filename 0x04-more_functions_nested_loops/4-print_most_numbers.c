@@ -13,5 +13,6 @@ void print_most_numbers(void)
 		if (cpt == 50 || cpt == 52)
 			continue;
 		_putchar(cpt);
+	}
 	_putchar('\n');
 }
