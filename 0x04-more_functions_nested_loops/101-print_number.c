@@ -16,21 +16,14 @@ void print_number(int n)
 		a = n * -1;
 	}
 	else
-	{
 		a = n;
-	}
-
 	b = a;
 	cpt = 1;
-
 	while (b > 9)
 	{
 		b /= 10;
 		cpt *= 10;
 	}
-
 	for (; cpt >= 1; cpt /= 10)
-	{
 		_putchar(((a / cpt) % 10) + 48);
-	}
 }
