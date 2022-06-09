@@ -7,7 +7,7 @@
 void print_most_numbers(void)
 {
 	int cpt;
-	
+
 	for (cpt = 48; cpt < 58; cpt++)
 	{
 		if (cpt == 50 || cpt == 52)
