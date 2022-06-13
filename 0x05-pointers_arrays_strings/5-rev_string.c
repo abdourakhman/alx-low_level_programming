@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * rev_string - reverses a string
@@ -13,5 +14,5 @@ void rev_string(char *s)
 	while (*(s + i) != '\0')
 		i++;
 	for (; i > 0; i--)
-		_putchar(*(s + (i - 1)));
+		printf("%c",*(s + (i - 1)));
 }
