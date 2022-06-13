@@ -13,6 +13,6 @@ void _puts(char *str)
 
 	length = _strlen(str);
 	for (; i < str + length; i++)
-		_putchar(*(str + i));
+		_putchar(*i);
 	_putchar('\n');
 }
