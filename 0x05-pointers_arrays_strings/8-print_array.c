@@ -17,5 +17,6 @@ void print_array(int *a, int n)
 			printf("%c, ", *(a + i));
 		else
 			printf("%c", *(a + i));
+		i++;
 	}
 }
