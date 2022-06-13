@@ -2,7 +2,7 @@
 
 /**
 * reset_to_98 - updates the value pointed to to 98
-* @*n: reference of int argument
+* @n: reference of int argument
 *
 * Return: no return
 */
