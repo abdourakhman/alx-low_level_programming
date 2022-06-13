@@ -7,7 +7,7 @@
 void rev_string(char *s)
 {
 	int i, j;
-	char clone[1000000000];
+	char clone[10000];
 
 	i = 0;
 	while (*(s + i) !=  '\0')
