@@ -11,19 +11,16 @@
 */
 char *_strcat(char *dest, char *src)
 {
-	char concat[1000];
 	int i = 0;
 	int j = 0;
+
 	while (*(dest + i) != '\0')
-	{
-		concat[i] = *(dest + i);
 		i++;
-	}
 	while (*(src + j) != '\0')
 	{
-		concat[i] = *(src + j);
+		*(dest + i) = *(src + j);
 		i++;
 		j++;
 	}
-	_putchar('\0');
+	return (dest);
 }
