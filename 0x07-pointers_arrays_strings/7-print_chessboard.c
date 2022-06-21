@@ -20,8 +20,3 @@ void print_chessboard(char (*a)[8])
 	}
 	_putchar('\n');
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Statu
