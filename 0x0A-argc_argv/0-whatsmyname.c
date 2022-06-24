@@ -3,7 +3,7 @@
 
 /**
 * main - entry point
-* program that prints the number of arguments passed into it
+* program that prints the name of program
 * @argc:  the number of arguments or  size of argv[]
 * @argv: a array that containts arguments passed
 * Return: 0 always success
