@@ -1,7 +1,8 @@
+#include "holberton.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
-#include "main.h"
+
 /**
  * _is_zero - determines if any number is zero
  * @argv: argument vector.
@@ -28,7 +29,7 @@ void _is_zero(char *argv[])
 
 	if (isn1 == 1 || isn2 == 1)
 	{
-		printf('0\n');
+		printf("0\n");
 		exit(0);
 	}
 }
@@ -121,5 +122,6 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%s\n", nout);
+	free (nout);
 	return (0);
 }
