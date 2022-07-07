@@ -8,7 +8,3 @@ void array_iterator(int *array, size_t size, void (*action)(int));
 int int_index(int *array, int size, int (*cmp)(int));
 
 #endif
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Te
